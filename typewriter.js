@@ -10,10 +10,10 @@ let delay = 0;
 let delayLine = sentence.length * 50;
 for (const char of sentence) {
   setTimeout(() => {
-    process.stdout.write(char)
-  }, delay)
-  delay += 50
+    process.stdout.write(char);
+  }, delay);
+  delay += 50;
 }
 setTimeout(() => {
-  process.stdout.write('\n')
+  process.stdout.write('\n');
 }, delayLine);
